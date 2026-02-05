@@ -11,45 +11,45 @@ import { OrganizationProvider, useOrganization } from "@/contexts/OrganizationCo
 import { useEffect } from "react";
 
 // Public Pages
-import Index from "./pages/Index";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import EmployeeSignup from "./pages/EmployeeSignup";
-import ForgotPassword from "./pages/ForgotPassword";
+import Index from "./views/Index";
+import Login from "./views/Login";
+import Signup from "./views/Signup";
+import EmployeeSignup from "./views/EmployeeSignup";
+import ForgotPassword from "./views/ForgotPassword";
 
 // User Pages
-import UserDashboard from "./pages/user/UserDashboard";
-import TimeTracking from "./pages/user/TimeTracking";
-import TimeLogs from "./pages/user/TimeLogs";
-import Projects from "./pages/user/Projects";
-import TimeOff from "./pages/user/TimeOff";
-import Reports from "./pages/user/Reports";
-import Settings from "./pages/user/Settings";
+import UserDashboard from "./views/user/UserDashboard";
+import TimeTracking from "./views/user/TimeTracking";
+import TimeLogs from "./views/user/TimeLogs";
+import Projects from "./views/user/Projects";
+import TimeOff from "./views/user/TimeOff";
+import Reports from "./views/user/Reports";
+import Settings from "./views/user/Settings";
 
 // Admin Pages
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import UserManagement from "./pages/admin/UserManagement";
-import TimeManagement from "./pages/admin/TimeManagement";
-import AdminProjects from "./pages/admin/AdminProjects";
-import TimeOffManagement from "./pages/admin/TimeOffManagement";
-import AdminReports from "./pages/admin/AdminReports";
-import AuditLogs from "./pages/admin/AuditLogs";
-import AdminSettings from "./pages/admin/AdminSettings";
+import AdminDashboard from "./views/admin/AdminDashboard";
+import UserManagement from "./views/admin/UserManagement";
+import TimeManagement from "./views/admin/TimeManagement";
+import AdminProjects from "./views/admin/AdminProjects";
+import TimeOffManagement from "./views/admin/TimeOffManagement";
+import AdminReports from "./views/admin/AdminReports";
+import AuditLogs from "./views/admin/AuditLogs";
+import AdminSettings from "./views/admin/AdminSettings";
 
 // Organization Pages
-import CreateOrganization from "./pages/organization/CreateOrganization";
-import SelectOrganization from "./pages/organization/SelectOrganization";
-import OrganizationSettings from "./pages/organization/OrganizationSettings";
+import CreateOrganization from "./views/organization/CreateOrganization";
+import SelectOrganization from "./views/organization/SelectOrganization";
+import OrganizationSettings from "./views/organization/OrganizationSettings";
 
 // Super Admin Pages
-import SuperAdminDashboard from "./pages/superadmin/SuperAdminDashboard";
-import GlobalUsers from "./pages/superadmin/GlobalUsers";
-import BillingSubscriptions from "./pages/superadmin/BillingSubscriptions";
-import SystemSettings from "./pages/superadmin/SystemSettings";
-import GlobalReports from "./pages/superadmin/GlobalReports";
-import SupportTools from "./pages/superadmin/SupportTools";
+import SuperAdminDashboard from "./views/superadmin/SuperAdminDashboard";
+import GlobalUsers from "./views/superadmin/GlobalUsers";
+import BillingSubscriptions from "./views/superadmin/BillingSubscriptions";
+import SystemSettings from "./views/superadmin/SystemSettings";
+import GlobalReports from "./views/superadmin/GlobalReports";
+import SupportTools from "./views/superadmin/SupportTools";
 
-import NotFound from "./pages/NotFound";
+import NotFound from "./views/NotFound";
 
 const queryClient = new QueryClient();
 
